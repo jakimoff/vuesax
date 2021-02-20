@@ -4213,7 +4213,15 @@ var vsTabs_component = normalizeComponent(
 
 /* harmony default export */ var vsTabs = (vsTabs_component.exports);
 // CONCATENATED MODULE: C:/Users/Usuario/AppData/Roaming/npm/node_modules/@vue/cli-service-global/node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"45aa2680-vue-loader-template"}!C:/Users/Usuario/AppData/Roaming/npm/node_modules/@vue/cli-service-global/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!C:/Users/Usuario/AppData/Roaming/npm/node_modules/@vue/cli-service-global/node_modules/cache-loader/dist/cjs.js??ref--0-0!C:/Users/Usuario/AppData/Roaming/npm/node_modules/@vue/cli-service-global/node_modules/vue-loader/lib??vue-loader-options!./src/components/vsTabs/vsTab.vue?vue&type=template&id=68182bc2&lang=html&
-var vsTabvue_type_template_id_68182bc2_lang_html_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('transition',{attrs:{"name":_vm.invert?_vm.vertical?'fade-tab-vertical-invert':'fade-tab-invert':_vm.vertical?'fade-tab-vertical':'fade-tab'}},[(_vm.active)?_c('div',{staticClass:"con-tab vs-tabs--content"},[_vm._t("default")],2):_vm._e()])}
+var vsTabvue_type_template_id_68182bc2_lang_html_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('transition',{attrs:{"name":_vm.invert?_vm.vertical?'fade-tab-vertical-invert':'fade-tab-invert':_vm.vertical?'fade-tab-vertical':'fade-tab'}},[_c('div',{
+  staticClass:"con-tab vs-tabs--content",
+  directives:[{
+    name:"show",
+    rawName:"v-show",
+    value:(!_vm.active),
+    expression:"!active"
+  }]
+},[_vm._t("default")],2)])}
 var vsTabvue_type_template_id_68182bc2_lang_html_staticRenderFns = []
 
 
