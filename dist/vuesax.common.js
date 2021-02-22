@@ -4218,7 +4218,7 @@ var vsTabvue_type_template_id_68182bc2_lang_html_render = function () {var _vm=t
   directives:[{
     name:"show",
     rawName:"v-show",
-    value:(!_vm.active),
+    value:(_vm.active),
     expression:"!active"
   }]
 },[_vm._t("default")],2)])}
